@@ -7,25 +7,23 @@
 <table width="100%" style="border-collapse:collapse;">
   <tr>
     <td align="center" style="border:none;padding:12px;">
-      <strong>🧑‍💻 Role</strong><br/>Full-stack Engineer
+      <strong>🧑‍💻 Role</strong><br/>Student 
     </td>
     <td align="center" style="border:none;padding:12px;">
-      <strong>🎯 Focus</strong><br/>Hiring readiness / OSS contributions
+      <strong>🎯 Focus</strong><br/>backend
     </td>
     <td align="center" style="border:none;padding:12px;">
       <strong>📍 Location</strong><br/>Tokyo, Japan (JST)
     </td>
-    <td align="center" style="border:none;padding:12px;">
-      <strong>🤝 Availability</strong><br/>Open to collaborations
     </td>
   </tr>
 </table>
 
 ## 💫 About Me
 
-- フロントエンド / フルスタック領域を中心に、個人・OSS・業務での開発経験を横断的に蓄積。
-- GitHub special repository を活用し、私の変遷やアカウント横断の活動履歴を 1 ページで俯瞰できるよう情報設計。
-- 採用強化、技術ブランディング、コミュニティ連携の 3 本柱で価値提供することが現在のテーマ。
+- backend を中心に学習中。
+-
+-
 
 ## 🛠 Tech & Language Highlights
 
