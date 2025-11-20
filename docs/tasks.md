@@ -1,9 +1,9 @@
 # 実装計画
 
 - [ ] **1. Week 1 – ベース README & 基本レイアウト**
-- [x] 1.1 `README.md` テンプレート作成
+- [ ] 1.1 `README.md` テンプレート作成
 
-  - [x] セクション配置: About / Tech Stacks / GitHub Stats / Featured Repos / Contact
+  - [ ] セクション配置: About / Tech Stacks / GitHub Stats / Featured Repos / Contact
   - _要件: 1.1_
 
 - [ ] 1.2 レスポンシブレイアウト実装（≤480 px 縦積み）
