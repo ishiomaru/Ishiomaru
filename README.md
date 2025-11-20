@@ -33,29 +33,29 @@
   <tr>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /><br/>
-      <strong>TypeScript 5.x</strong><br/><sub>UI & API Core</sub>
+      <strong>TypeScript 5.x</strong><br/>
     </td>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React" /><br/>
-      <strong>React / Next.js</strong><br/><sub>Edge Rendering</sub>
+      <strong>React / Next.js</strong><br/>
     </td>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node" /><br/>
-      <strong>Node.js 18</strong><br/><sub>API & Workflows</sub>
+      <strong>Node.js 18</strong><br/>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" /><br/>
-      <strong>Python 3.11</strong><br/><sub>Automation / ML</sub>
+      <strong>Python 3.11</strong><br/>
     </td>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="36" height="36" alt="GitHub Actions" /><br/>
-      <strong>GitHub Actions</strong><br/><sub>Stats Automation</sub>
+      <strong>GitHub Actions</strong><br/>
     </td>
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="36" height="36" alt="Design" /><br/>
-      <strong>Design System</strong><br/><sub>Light Tritanopia</sub>
+      <strong>Design System</strong><br/>
     </td>
   </tr>
 </table>
@@ -84,10 +84,10 @@
 
 <p>
   <a href="https://github.com/ishiomaru/colorball-detection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ishiomaru&repo=colorball-detection&hide_border=true&theme=transparent" alt="colorball-detection" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ishiomaru&repo=colorball-detection&theme=transparent" alt="colorball-detection" />
   </a>
   <a href="https://github.com/ishiomaru/ishiomaru">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ishiomaru&repo=ishiomaru&hide_border=true&theme=transparent" alt="ishiomaru" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ishiomaru&repo=ishiomaru&theme=transparent" alt="ishiomaru" />
   </a>
 </p>
 
@@ -98,25 +98,21 @@
     <td align="center">
       <a href="mailto:contact@ishiomaru.dev">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="28" height="28" alt="Email" /><br/>
-        <sub>contact@ishiomaru.dev</sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/ishiomaru">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28" height="28" alt="GitHub" /><br/>
-        <sub>@ishiomaru</sub>
       </a>
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/ishiomaru">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" height="28" alt="LinkedIn" /><br/>
-        <sub>in/ishiomaru</sub>
       </a>
     </td>
     <td align="center">
       <a href="https://twitter.com/ishiomaru">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" width="28" height="28" alt="X" /><br/>
-        <sub>@ishiomaru</sub>
       </a>
     </td>
   </tr>
