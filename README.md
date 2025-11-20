@@ -11,7 +11,7 @@
 
 **デザイン関連**
 - `&show_icons=true` - アイコンを表示
-- `&hide_border=false` - 枠線を非表示
+- `&hide_border=true` - 枠線を非表示
 - `&border_radius=10` - 角の丸みを調整
 
 **その他のオプション**
