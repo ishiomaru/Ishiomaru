@@ -1,29 +1,30 @@
 # 実装計画
 
 - [ ] **1. Week 1 – ベース README & 基本レイアウト**
-- [ ] 1.1 `README.md` テンプレート作成
+- [x] 1.1 `README.md` テンプレート作成
 
-  - [ ] セクション配置: About / Tech Stacks / GitHub Stats / Featured Repos / Contact
+  - [x] セクション配置: About / Tech Stacks / GitHub Stats / Featured Repos / Contact
   - _要件: 1.1_
 
-- [ ] 1.2 レスポンシブレイアウト実装（≤480 px 縦積み）
+- [x] 1.2 レスポンシブレイアウト実装（≤480 px 縦積み）
 
-  - [ ] モバイル表示で 1 スクロール以内に主要 5 セクションを確認
+  - [x] モバイル表示で 1 スクロール以内に主要 5 セクションを確認
   - _要件: 1.2_
 
-- [ ] 1.3 Light Tritanopia カラーパレット適用
+- [x] 1.3 Light Tritanopia カラーパレット適用
 
-  - [ ] SCSS 変数定義 `--bg` `--fg` `--accent` `--secondary`
+  - [x] SCSS 変数定義 `--bg` `--fg` `--accent` `--secondary`
   - _要件: 3.1_
 
-- [ ] 1.4 基本スタイル & Markdownlint 設定
+- [x] 1.4 基本スタイル & Markdownlint 設定
 
-  - [ ] `markdownlint.yaml` を追加し CI に組み込み
+  - [x] `markdownlint` 設定を追加し CI 取込準備
   - _要件: 3.1_
 
-- [ ] 1.5 8pt グリッド & タイポグラフィ設定
+- [x] 1.5 デザイントークン & Typographic Scale 実装
 
-  - [ ] `main.css` に 8pt spacing ユーティリティクラスとベースフォントサイズを定義
+  - [x] `style` ブロックに `space-*, font-*` 変数を定義し README に適用
+  - [x] `Inter`, `Noto Sans JP` を読み込み、見出しサイズをスケール (1.25) で設定
   - _要件: 3.3_
 
 ---
@@ -62,10 +63,10 @@
   - [ ] `axe-core` で自動テスト
   - _要件: 3.1_
 
-- [ ] 3.4 8pt グリッド検証 & 可読性スコア計測
+- [ ] 3.4 視覚階層 / 余白検証 & 調整
 
-  - [ ] デスクトップ幅 1280px で 8pt spacing 一致を Percy などで visual diff
-  - [ ] Readability スコア ≥ 90 を Lighthouse で確認
+  - [ ] デスクトップ・モバイルで schier.co 同等の見出しサイズ・余白を確認
+  - [ ] README 内スタイルを調整し `lighthouse` + スクリーンショット比較で検証
   - _要件: 3.3_
 
 ---

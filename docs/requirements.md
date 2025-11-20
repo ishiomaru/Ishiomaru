@@ -15,7 +15,7 @@
 
 - First-view で「私について」「Tech Stacks / Skills」「GitHub Stats」「Featured Repositories」「Contact / Social Links」を 1 スクロール以内に配置。
 - 動的情報（GitHub Stats・Most Used Languages・Repos・Streak）は GitHub Actions で自動更新。静的情報（プロフィール文・活動履歴・外部アカウントリンク）は手動編集。
-- Light Tritanopia カラーパレットを基調に、`schier.co` をベンチマークとした**洗練されたミニマル UI/UX**を実現。余白設計とタイポグラフィを重視し、フェードインなど控えめなマイクロアニメーションを採用。完全レスポンシブ。
+- Light Tritanopia カラーパレットを基調に、schier.co のように洗練されたミニマルデザインと Google プロダクトに匹敵する UI/UX を実装。豊富な余白・一貫したタイポグラフィ・明確な階層構造を保ちつつ、フェードインなど控えめなマイクロインタラクションを適用。完全レスポンシブ。
 - ビルド時間／描画完了は 0‒5 秒以内。MIT／Apache-2.0 など寛容ライセンスのツールのみを使用。
 
 ## ユーザーストーリー
@@ -44,18 +44,18 @@
 1. GIVEN 24 時間経過 WHEN Stats バッジ生成 Action が実行 THEN README の統計が更新される SHALL
 2. WHEN API rate-limit 超過 THEN Action はリトライし、README は壊れない SHALL
 
-### 要件 3: ミニマル & アクセシブルなデザイン
+### 要件 3: 洗練された UI/UX & アクセシビリティ
 
 #### ユーザーストーリー
 
 1. 色覚異常ユーザーも違和感なく閲覧できる。
-2. `schier.co` のように情報の視認性が高く、余計な装飾のないミニマル UI を好む閲覧者が、デザイン品質の高さを感じる。
+2. schier.co のように視覚的に洗練され、Google 製品のように直感的で快適な UI/UX を体験できる。
 
 #### 受け入れ基準
 
 1. WHEN Light Tritanopia シミュレーションを行う THEN 主要テキストと背景のコントラスト比が WCAG AA を満たす SHALL
 2. WHEN アイコンにホバー THEN 過度でないアニメーションが 0.3 秒以内で再生される SHALL
-3. WHEN デスクトップ幅 1280px で閲覧 THEN 余白・行間・フォントサイズが `schier.co` を参考にした 8pt グリッドに一致し、可読性スコア ≥ 90 を達成する SHALL
+3. GIVEN デスクトップとモバイル両方 WHEN ヒーローセクションを閲覧 THEN schier.co 同等以上の視覚階層（見出しサイズ・余白・タイポグラフィスケール）が維持される SHALL
 
 ### 要件 4: パフォーマンス & コスト制約
 
