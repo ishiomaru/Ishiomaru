@@ -2,4 +2,4 @@
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Ishiomaru&hide_border=true)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&layout=compact&hide_border=true)
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ishiomaru&hide_border=true)
