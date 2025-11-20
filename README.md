@@ -1,32 +1,25 @@
 # 👋 Hi, I'm **Ishiomaru**
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:007acc,100:00c6ff&height=120&text=Ishiomaru&fontAlign=50&fontColor=ffffff&fontSize=48&font=Inter&desc=Minimal%20&%20Accessible%20GitHub%20Profile&descSize=16&descAlign=50" alt="Hero card" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:007acc,50:00b4d8,100:90e0ef&height=160&text=Ishiomaru&fontAlign=50&fontColor=ffffff&fontSize=52&font=Inter&desc=Minimal%20%7C%20Accessible%20%7C%20Responsive&descSize=16&descAlign=50" alt="Hero banner" />
 </p>
-
-採用担当・OSS コミュニティが 1 スクロール以内で人物像と最新実績を把握できる special repository README を目指しています。
 
 <table>
   <tr>
-    <th>Role</th>
-    <th>Focus</th>
-    <th>Location</th>
-    <th>Availability</th>
-  </tr>
-  <tr>
-    <td>Full-stack Engineer</td>
-    <td>Hiring readiness / OSS contributions</td>
-    <td>Tokyo, Japan (JST)</td>
-    <td>Open to collaborations</td>
+    <td align="center">
+      <strong>🧑‍💻 Role</strong><br/>Full-stack Engineer
+    </td>
+    <td align="center">
+      <strong>🎯 Focus</strong><br/>Hiring readiness / OSS contributions
+    </td>
+    <td align="center">
+      <strong>📍 Location</strong><br/>Tokyo, Japan (JST)
+    </td>
+    <td align="center">
+      <strong>🤝 Availability</strong><br/>Open to collaborations
+    </td>
   </tr>
 </table>
-
-[![GitHub](https://img.shields.io/badge/GitHub-ishiomaru-181717?logo=github&logoColor=white)](https://github.com/ishiomaru)
-[![Email](https://img.shields.io/badge/Email-contact%40ishiomaru.dev-D14836?logo=gmail&logoColor=white)](mailto:contact@ishiomaru.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fishiomaru-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ishiomaru)
-[![X (Twitter)](https://img.shields.io/badge/X-@ishiomaru-000000?logo=x&logoColor=white)](https://twitter.com/ishiomaru)
-
----
 
 ## 💫 About Me
 
@@ -34,34 +27,38 @@
 - GitHub special repository を活用し、私の変遷やアカウント横断の活動履歴を 1 ページで俯瞰できるよう情報設計。
 - 採用強化、技術ブランディング、コミュニティ連携の 3 本柱で価値提供することが現在のテーマ。
 
----
+## 🛠 Tech & Language Highlights
 
-## 🎨 Palette & Typography Snapshot
-
-| Token         | 値 / 役割                                          |
-| ------------- | -------------------------------------------------- |
-| `--bg`        | `#FFFFFF` 背景（WCAG AA 対応）                     |
-| `--fg`        | `#202124` 本文 / ベースフォント                    |
-| `--accent`    | `#007ACC` リンク・アクセント                       |
-| `--secondary` | `#586069` サブテキスト                             |
-| Typography    | Inter / Noto Sans JP, Scale 1 : 1.25 : 1.56 : 2.44 |
-
-> GitHub 上ではシステムフォントで描画されますが、ヒーローバナー等の画像要素で Inter / Noto Sans JP を意識した階層を表現しています。
-
----
-
-## 🛠 Tech Stacks / Skills
-
-| Tech                                                                                                                                                           | 説明                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="32" height="32" alt="TypeScript" /> **TypeScript 5.x** | Application Core / 型安全な UI & API |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="32" height="32" alt="React" /> **React / Next.js**               | SPA & Edge Rendering                 |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="32" height="32" alt="Node" /> **Node.js 18**                   | API・ワークフロー / GitHub Actions   |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="32" height="32" alt="Python" /> **Python 3.11**                | ML / Automation                      |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="32" height="32" alt="GitHub Actions" /> **GitHub Actions**     | Stats バッジ自動更新                 |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="32" height="32" alt="Design" /> **Design System**                | Light Tritanopia Palette / WCAG AA   |
-
----
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /><br/>
+      <strong>TypeScript 5.x</strong><br/><sub>UI & API Core</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React" /><br/>
+      <strong>React / Next.js</strong><br/><sub>Edge Rendering</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node" /><br/>
+      <strong>Node.js 18</strong><br/><sub>API & Workflows</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" /><br/>
+      <strong>Python 3.11</strong><br/><sub>Automation / ML</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="36" height="36" alt="GitHub Actions" /><br/>
+      <strong>GitHub Actions</strong><br/><sub>Stats Automation</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="36" height="36" alt="Design" /><br/>
+      <strong>Design System</strong><br/><sub>Light Tritanopia</sub>
+    </td>
+  </tr>
+</table>
 
 ## 📊 GitHub Stats
 
@@ -94,15 +91,35 @@
   </a>
 </p>
 
----
+## 🔗 Links & Availability
 
-## 📫 Contact / Social Links
+<table>
+  <tr>
+    <td align="center">
+      <a href="mailto:contact@ishiomaru.dev">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="28" height="28" alt="Email" /><br/>
+        <sub>contact@ishiomaru.dev</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ishiomaru">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28" height="28" alt="GitHub" /><br/>
+        <sub>@ishiomaru</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/ishiomaru">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" height="28" alt="LinkedIn" /><br/>
+        <sub>in/ishiomaru</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://twitter.com/ishiomaru">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" width="28" height="28" alt="X" /><br/>
+        <sub>@ishiomaru</sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-- [![Email](https://img.shields.io/badge/Email-contact%40ishiomaru.dev-D14836?style=flat-square&logo=gmail&logoColor=white&labelColor=202124)](mailto:contact@ishiomaru.dev)
-- [![GitHub](https://img.shields.io/badge/GitHub-@ishiomaru-181717?style=flat-square&logo=github&logoColor=white&labelColor=202124)](https://github.com/ishiomaru)
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fishiomaru-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=202124)](https://www.linkedin.com/in/ishiomaru)
-- [![X (Twitter)](https://img.shields.io/badge/X-@ishiomaru-000000?style=flat-square&logo=x&logoColor=white&labelColor=202124)](https://twitter.com/ishiomaru)
-
----
-
-<sub>Inspired by schier.co のミニマルデザイン。GitHub 上で崩れない範囲でレイアウトを最適化しています。</sub>
+<sub>Inspired by schier.co のミニマルデザイン。GitHub 上で崩れない範囲で Light Tritanopia カラーとタイポグラフィ階層を表現しています。</sub>
