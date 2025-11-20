@@ -6,15 +6,14 @@
 
 <table width="100%" style="border-collapse:collapse;">
   <tr>
-    <td align="center" style="border:none;padding:12px;">
+    <td align="center">
       <strong>🧑‍💻 Role</strong><br/>Student 
     </td>
-    <td align="center" style="border:none;padding:12px;">
+    <td align="center">
       <strong>🎯 Focus</strong><br/>backend
     </td>
-    <td align="center" style="border:none;padding:12px;">
+    <td align="center">
       <strong>📍 Location</strong><br/>Tokyo, Japan (JST)
-    </td>
     </td>
   </tr>
 </table>
@@ -29,29 +28,29 @@
 
 <table width="100%" style="border-collapse:collapse;">
   <tr>
-    <td align="center" style="border:none;padding:16px;">
+    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" alt="TypeScript" /><br/>
       <strong>TypeScript 5.x</strong><br/>
     </td>
-    <td align="center" style="border:none;padding:16px;">
+    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="36" height="36" alt="React" /><br/>
       <strong>React / Next.js</strong><br/>
     </td>
-    <td align="center" style="border:none;padding:16px;">
+    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="36" height="36" alt="Node" /><br/>
       <strong>Node.js 18</strong><br/>
     </td>
   </tr>
   <tr>
-    <td align="center" style="border:none;padding:16px;">
+    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" alt="Python" /><br/>
       <strong>Python 3.11</strong><br/>
     </td>
-    <td align="center" style="border:none;padding:16px;">
+    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="36" height="36" alt="GitHub Actions" /><br/>
       <strong>GitHub Actions</strong><br/>
     </td>
-    <td align="center" style="border:none;padding:16px;">
+    <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="36" height="36" alt="Design" /><br/>
       <strong>Design System</strong><br/>
     </td>
@@ -62,15 +61,15 @@
 
 <table width="100%" style="border-collapse:collapse;">
   <tr>
-    <td colspan="2" style="border:none;padding:8px;">
+    <td colspan="2">
       <img src="https://streak-stats.demolab.com?user=ishiomaru&hide_border=true&card_width=720&ring=007acc&fire=ffb703" alt="GitHub Streak" />
     </td>
   </tr>
   <tr>
-    <td style="border:none;padding:8px;">
+    <td>
       <img src="https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=true&show_icons=true&count_private=true&theme=transparent" alt="GitHub Stats" />
     </td>
-    <td style="border:none;padding:8px;">
+    <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&layout=compact&hide_border=true&theme=transparent" alt="Top Languages" />
     </td>
   </tr>
@@ -93,22 +92,22 @@
 
 <table width="100%" style="border-collapse:collapse;">
   <tr>
-    <td align="center" style="border:none;padding:10px;">
+    <td align="center">
       <a href="mailto:contact@ishiomaru.dev">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="28" height="28" alt="Email" /><br/>
       </a>
     </td>
-    <td align="center" style="border:none;padding:10px;">
+    <td align="center">
       <a href="https://github.com/ishiomaru">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28" height="28" alt="GitHub" /><br/>
       </a>
     </td>
-    <td align="center" style="border:none;padding:10px;">
+    <td align="center">
       <a href="https://www.linkedin.com/in/ishiomaru">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" height="28" alt="LinkedIn" /><br/>
       </a>
     </td>
-    <td align="center" style="border:none;padding:10px;">
+    <td align="center">
       <a href="https://twitter.com/ishiomaru">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" width="28" height="28" alt="X" /><br/>
       </a>
