@@ -11,7 +11,7 @@ Focus: backend automation and tooling (Python) that keep documentation and infra
 
 ### GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=truet)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=true)
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&hide_border=true)
 ![GitHub streak](https://streak-stats.demolab.com?user=ishiomaru&hide_border=true&card_width=720&ring=007acc&fire=ffb703)
 
