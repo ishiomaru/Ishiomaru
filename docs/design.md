@@ -52,6 +52,8 @@
 
 WCAG AA コントラスト比 ≥ 4.5 を保持。
 
+- Tech stack セクションは Devicon / Shields を使用し、skill icon + テキストで言語を示すことで GitHub 上でも直感的に伝わるようにする。
+
 ## 3. デザイントークン
 
 | Token       | 値               | 用途                 |
@@ -144,5 +146,11 @@ jobs:
 - なし
 
 ---
+
+## GitHub Rendering Constraints
+
+- GitHub README は一部の CSS/STYLE タグを削除するため、最終出力の確認を GitHub 上で必ず行い、docs にスクリーンショットや挙動を記録する。
+- Fallback では Markdown のレイアウトを依存先とし、style block が無効でもテキストが読める構造を維持する。
+- Skill icon は CDN 依存なので、表示されないことも想定し `alt` とテキストでツール名を補完する。
 
 以上。設計変更があれば本書を更新する。

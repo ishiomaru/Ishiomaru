@@ -1,6 +1,6 @@
 # 実装計画
 
-- [ ] **1. Week 1 – ベース README & 基本レイアウト**
+- [x] **1. Week 1 – ベース README & 基本レイアウト**
 - [x] 1.1 `README.md` テンプレート作成
 
   - [x] セクション配置: About / Tech Stacks / GitHub Stats / Featured Repos / Contact
@@ -26,6 +26,11 @@
   - [x] `style` ブロックに `space-*, font-*` 変数を定義し README に適用
   - [x] `Inter`, `Noto Sans JP` を読み込み、見出しサイズをスケール (1.25) で設定
   - _要件: 3.3_
+
+- [x] 1.6 Docs 更新: CSS 制約と Skill Icon 前提を明示
+
+  - [x] CSS / GitHub Rendering Constraint の記述を `docs/requirements.md` と `docs/design.md` に追加
+  - [x] Skill Icon の使い方を `docs/design.md` に明記
 
 ---
 

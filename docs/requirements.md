@@ -13,10 +13,11 @@
 
 `<username>/<username>` リポジトリの README を中心に、GitHub Stats Readme などのバッジ／ウィジェットを組み合わせて以下を実装する。
 
-- First-view で「私について」「Tech Stacks / Skills」「GitHub Stats」「Featured Repositories」「Contact / Social Links」を 1 スクロール以内に配置。
+- First-view で「私について」「Tech Stacks / Skills」「GitHub Stats」「Contact / Social Links」を 1 スクロール以内に配置。
 - 動的情報（GitHub Stats・Most Used Languages・Repos・Streak）は GitHub Actions で自動更新。静的情報（プロフィール文・活動履歴・外部アカウントリンク）は手動編集。
 - Light Tritanopia カラーパレットを基調に、schier.co のように洗練されたミニマルデザインと Google プロダクトに匹敵する UI/UX を実装。豊富な余白・一貫したタイポグラフィ・明確な階層構造を保ちつつ、フェードインなど控えめなマイクロインタラクションを適用。完全レスポンシブ。
 - ビルド時間／描画完了は 0‒5 秒以内。MIT／Apache-2.0 など寛容ライセンスのツールのみを使用。
+- Tech stack バッジは Devicon / Shields の skill icon を併用し、文字情報と視覚的アイコンの両方で言語・ツールを示すこと。
 
 ## ユーザーストーリー
 
@@ -82,6 +83,7 @@
 - 使用ライブラリは MIT / Apache-2.0 ライセンス
 - README は Markdown のみで構築、画像最適化は SVG / WebP
 - ビルドレス。Action で Stats 画像生成のみ行う（実行時間 < 30s）
+- GitHub の Markdown 表示では `<style>` の一部ルールやカスタム CSS が無効化されるため、重要な情報は CSS なしで読める構造にし、docs には CSS 互換性の前提を記載しておく。
 
 ### 優先順位付き機能一覧
 
@@ -92,6 +94,12 @@ Week 2: GitHub Stats／Streak／Top Languages 自動更新ワークフロー
 Week 3: Featured Repositories セクション & モバイル最適化
 
 Week 4: オプションセクション（WakaTime, Latest Blog）とホバーアニメーション
+
+## GitHub Rendering Constraints
+
+- GitHub の README ページは Markdown のレンダリング結果を最優先するため、開発時に組んだ CSS が一部削られても情報が読める構造であること。
+- Skill icon 画像は CDN で読み込むので、表示されない時用に `alt` とテキスト両方で言語/ツール名を示す。
+- CSS の差分が懸念される場合、GitHub 上で直接表示確認したスクリーンショットを docs ディレクトリに保管して齟齬を可視化する。
 
 ## 受け入れ条件
 
