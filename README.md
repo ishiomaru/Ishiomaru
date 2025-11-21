@@ -12,13 +12,12 @@
 
 ### GitHub stats
 
-![Github streaks](https://streak-stats.demolab.com?user=ishiomaru&hide_border=true&card_width=720&ring=007acc&fire=ffb703)
-
-![Github stats](https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&hide_border=true)
-
-### Let's connect
+<p align="center">
+  <a><img src="https://streak-stats.demolab.com?user=ishiomaru&hide_border=true&card_width=720&ring=007acc&fire=ffb703" alt="streak"></a>
+  <br />
+  <a><img src="https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=true" alt="stats"></a>
+  <a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&hide_border=true" alt="top languages"></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/ishiomaru"><img src="https://img.icons8.com/bubbles/48/000000/github.png" alt="GitHub"></a>
