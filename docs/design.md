@@ -16,30 +16,30 @@
 
 ```
 ┌──────── First View ───────────┐
-│ Header / Self-Intro           │  約 200〜250 字, アイコン(SVG) │
+│ Hero image / header           │  tighten copy + optional badge │
 ├───────────────────────────────┤
-│ Tech Stacks / Skills          │  バッジ横並び, 折返し対応 │
+│ About                         │  short list of focus + goals  │
 ├───────────────────────────────┤
-│ GitHub Stats・Streak・TopLang │  3 枚横並び (≤768px で縦) │
+│ Tech / Skill badge table      │  icon + text for each tool     │
 ├───────────────────────────────┤
-│ Featured Repositories (3)     │  star / lang / desc Card │
+│ Stats badges (optional)       │  GitHub / streak images        │
 ├───────────────────────────────┤
-│ Contact / Social Links        │  アイコン+テキスト │
+│ Fun facts + Contact           │  concise bullet list + icons  │
 └───────────────────────────────┘
 ```
 
 ### 2.1 デザイン原則
 
-- **Minimal & Elegant**: 不要な装飾を排し、情報を視覚的階層と余白で整理
-- **Consistent Typography**: `Inter`, `Noto Sans JP` を標準とし、Typographic scale (1.25) を採用
-- **Accessible Colors**: Light Tritanopia パレットで WCAG AA コントラストを担保
-- **Micro-interaction**: Hover / Fade-in を 0.2-0.3s で実装し、`prefers-reduced-motion` を尊重
+- **Simple & Focused**: `example.md` のように情報を絞り込み、About・Tech・Contact を並列に見せることで読みやすさを確保。
+- **Icon-First Tech**: Devicon / Shields で各ツールにアイコンを添え、Markdown の表でも視線を集めやすくする。
+- **Accessible Colors**: Light Tritanopia パレットに沿いつつ、GitHub 表示で変化しても意味が保てる高コントラストな文字とバッジ。
+- **Minimal Motion**: GitHub では CSS アニメーションが無効なので、記述ではなくtyped copy でアテンションを引く。
 
 ### レイアウト指針
 
-- **1 ブロック ≤ 350px** を目安に要素間マージンを調整し、縦 800px（ノート PC）で 1 スクロール以内に収める。
-- モバイル（≤480px）は縦積みレイアウト、SVG/画像は `max-width:100%`。
-- 各セクションに `id` を付与して内部リンクを許容。
+- **1 viewport focus**: About/Tech/Contact が一画面に見えることを確認し、長大な説明文や複雑なグリッドを避ける。
+- **Stacked sections**: Markdown セクションを縦積みにし、`---` で区切って視線を誘導。画像は `max-width:100%` で扱う。
+- **Icons & badges**: 単一行にまとめづらい場合テーブルを使い、アイコン+テキスト+ノートで構成する。
 
 ### 2.2 カラーパレット（Light Tritanopia）
 

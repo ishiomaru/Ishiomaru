@@ -11,13 +11,11 @@
 
 ## 概要
 
-`<username>/<username>` リポジトリの README を中心に、GitHub Stats Readme などのバッジ／ウィジェットを組み合わせて以下を実装する。
+`<username>/<username>` リポジトリの README を中心に、example.md のようなシンプルな構成で情報を整理する。
 
-- First-view で「私について」「Tech Stacks / Skills」「GitHub Stats」「Contact / Social Links」を 1 スクロール以内に配置。
-- 動的情報（GitHub Stats・Most Used Languages・Repos・Streak）は GitHub Actions で自動更新。静的情報（プロフィール文・活動履歴・外部アカウントリンク）は手動編集。
-- Light Tritanopia カラーパレットを基調に、schier.co のように洗練されたミニマルデザインと Google プロダクトに匹敵する UI/UX を実装。豊富な余白・一貫したタイポグラフィ・明確な階層構造を保ちつつ、フェードインなど控えめなマイクロインタラクションを適用。完全レスポンシブ。
-- ビルド時間／描画完了は 0‒5 秒以内。MIT／Apache-2.0 など寛容ライセンスのツールのみを使用。
-- Tech stack バッジは Devicon / Shields の skill icon を併用し、文字情報と視覚的アイコンの両方で言語・ツールを示すこと。
+- About / Tech / Contact の主要セクションを共存させ、余計な Repository や Stats のカラムを排して一貫した読みやすさを優先。
+- Markdown の段落＋画像バッジで内容を伝え、GitHub 特有の CSS 制約を回避する。
+- Tech stack には Devicon / Shields の skill icon を必ず併用し、アイコン＋テキストで即時に言語やツールを認識できるようにする。
 
 ## ユーザーストーリー
 
@@ -97,7 +95,8 @@ Week 4: オプションセクション（WakaTime, Latest Blog）とホバーア
 
 ## GitHub Rendering Constraints
 
-- GitHub の README ページは Markdown のレンダリング結果を最優先するため、開発時に組んだ CSS が一部削られても情報が読める構造であること。
+- GitHub special repository README（`<username>/<username>`）は CSS を大半無視するため、**マークダウンと画像だけで最終レイアウトを表現すること**。
+- GitHub Actions などで style を記述しても反映されない可能性があるので、Font/Tokens は docs で管理し、README では Markdown で表現する。
 - Skill icon 画像は CDN で読み込むので、表示されない時用に `alt` とテキスト両方で言語/ツール名を示す。
 - CSS の差分が懸念される場合、GitHub 上で直接表示確認したスクリーンショットを docs ディレクトリに保管して齟齬を可視化する。
 
