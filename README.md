@@ -11,11 +11,9 @@ Focus: backend automation and tooling (Python) that keep documentation and infra
 
 ### GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=true&show_icons=true&count_private=true&theme=light)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&layout=compact&hide_border=true&theme=light)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ishiomaru&hide_border=truet)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ishiomaru&hide_border=true)
 ![GitHub streak](https://streak-stats.demolab.com?user=ishiomaru&hide_border=true&card_width=720&ring=007acc&fire=ffb703)
-
-![Fun icon](https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/48/000000/external-smiley-emotions-kiranshastry-gradient-kiranshastry.png) ⚡ Fun fact: I collect automation tips and write short guides whenever I level up a workflow.
 
 <p align="center">
   <a href="https://github.com/ishiomaru"><img src="https://img.icons8.com/bubbles/40/000000/github.png" alt="GitHub"></a>
