@@ -7,7 +7,7 @@
 <h3>About me</h3>
 
 <ul>
-<li>I’m a student currently studying Python, Git/GitHub, and basic development workflows.</li>
+<li>I’m a student currently studying web development.</li>
 <li>This account is my space for continuous learning and practice.</li>
 </ul>
 
